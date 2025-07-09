@@ -1,0 +1,38 @@
+.figures{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #FFFF;
+    padding: 16px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    z-index: 9999;
+    left: 5%;
+}
+
+.figures-element{
+    width: 47%;
+    height: 190px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    background-color: #FFFF;
+    border: none;
+    border-radius: 15px;
+    transition: all 500ms ease;
+}
+
+.figures-element:hover{
+    background-color: grey;
+}
+
+.figures-element img{
+    padding: 5px;
+    width: 50%;
+}
+
+.active{
+    background-color: grey;
+}
